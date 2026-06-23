@@ -1,0 +1,13 @@
+-- Q1.SELECT DISTINCT city FROM orders; — Are all cities properly cased now?
+-- SELECT DISTINCT city 
+-- FROM orders;
+-- Q2.SELECT DISTINCT category FROM orders; — Are all categories standardized?
+-- SELECT DISTINCT category 
+-- FROM orders;
+-- Q3.SELECT COUNT(*) FROM orders WHERE email IS NULL; — Should be 0.
+-- SELECT COUNT(*) AS remaining_null_emails
+-- FROM orders 
+-- WHERE email IS NULL;
+-- Q4SELECT COUNT(*) FROM orders; — How many rows remain after deleting junk?
+-- SELECT COUNT(*) AS final_row_count 
+-- FROM orders;
